@@ -40,7 +40,7 @@
     right: -580px;
     width: 530px;
     height: 100vh;
-    background: #669BBD;
+    background: rgba(225, 243, 255, 1);
     list-style: none;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,7 +114,6 @@
 .menu-close img {
     width: 40px;
     height: 40px;
-    filter: brightness(0) invert(1);
 }
 
 .main-footer {
