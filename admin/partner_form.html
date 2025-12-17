@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href="/css/contacts.css" rel="stylesheet">
+    <link href="/css/partner.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,13 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Контакты</title>
+    <title>Добавление партнёра</title>
   </head>
   <body>
     <header class="main-header">
         <nav class="main-nav">
             <img class="logo" src="/img/logo_blue.png" alt="Логотип" width="151" height="112">
-            <h1>Контактная информация</h1>
+            <h1>Партнёры</h1>
             <section class="navbar">
                 <div class="burger-menu" id="burgerMenu">
                     <img src="/img/menu_blue.png" width="50" height="40">
@@ -51,27 +51,22 @@
         </nav>
     </header>
     <main>
-        <section class="contacts">
-            <div class="contacts-content">
-                <div class="contacts-content-text">
-                    <img src="/img/geo-cont.png" width="40px" height="54px">
-                    <p><span>Юридический адрес:</span><br>Главный учебный корпус УрФУ: 620062, Свердловская область, г.Екатеринбург, ул.Мира, д.19</p>
-                </div>
-                <div class="contacts-content-text">
-                    <img src="/img/tel-cont.png">
-                    <p><a href="tel:89226588563">+7 (922) 658-85-63</a></p>
-                </div>
-                <div class="contacts-content-text">
-                    <img src="/img/email-cont.png">
-                    <p><a href="mailto:volural@gmail.com">volural@gmail.com</a></p>
-                </div>
-                <div class="social-content">
-                    <img src="/img/vk-cont.png" width="65px" height="65px">
-                    <img src="/img/tg-cont.png" width="65px" height="65px">
+        <forms>
+            <div class="forms">
+                <label for="image"></label>
+                <input type="file" id="image" name="image">
+                <div class="forms-content">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Добавьте название организации">
+                    <label for="reference"></label>
+                    <input type="text" id="reference" name="reference" placeholder="Добавьте ссылку">
                 </div>
             </div>
-            <img src="/img/map.png" alt="карта" width="629px" height="587px">
-        </section>
+        </forms>
+        <div class="button">
+            <button type="reset" class="btn-reset">Отмена</button>
+            <button type="submit" class="btn-submit">Опубликовать</button>
+        </div>
     </main>
     <footer class="main-footer">
         <img class="footer-logo" src="/img/logo_white(1).png" alt="Логотип футер" width="437px" height="324px">

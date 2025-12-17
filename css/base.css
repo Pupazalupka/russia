@@ -149,3 +149,36 @@
     color: white;
     font-size: 24px;
 }
+
+.plus {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 80px;
+    border: none;
+    background: transparent;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.btn-reset {
+    padding: 20px;
+    font-size: 40px;
+    color: #780001;
+    background-color: #F7ADAE;
+    border: 3px solid #780001;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    padding: 20px;
+    font-size: 40px;
+    background-color: #E1F3FF;
+    border: 3px solid #283687;
+    border-radius: 10px;
+    color: #283687;
+}
